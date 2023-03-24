@@ -1,0 +1,325 @@
+@charset "UTF-8";
+body {font-family: "Raleway", sans-serif;    
+    line-height: 1.5;background: #f1f1f1;}
+
+.concent {
+    width: 1400px;
+    margin:0 auto;
+    box-sizing:border-box;
+    position:relative;
+}
+
+/***********header*************/
+
+header {   
+    position:relative;
+    width: 1400px;
+    height: 181px;    
+    text-align:center;        
+}
+header .top {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+header .top h1 {
+    font-size: 36px;
+    font-weight: 400;
+    margin: 20px 0;
+}
+header .top p {
+    font-size: 15px;
+    line-height: 1.5;
+}
+header .top p > .top_box {
+    background: #000;
+    color:#fff;
+    padding: 0 7px 3px 7px;
+}
+
+/*********** wrap left 상*************/
+
+.wrap {
+    max-width: 1400px;
+    margin: auto;
+    height: 1200px;    
+}
+.wrap .wrap_left {    
+    width: 66.66%;
+    float: left;
+}
+.wrap .wrap_left .left_hi {    
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+    color: #000;
+    background-color: #fff;
+    margin: 16px;
+}
+.wrap .wrap_left .left_hi img {
+    width: 100%;
+}
+.wrap .wrap_left .left_hi .left_con1 {
+    padding: 0 16px;
+}
+.wrap .wrap_left .left_hi .left_con1 .con1_h3 {
+    margin: 10px 0;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.wrap .wrap_left .left_hi .left_con1 .con1_h5 {
+    margin: 10px 0;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.wrap .wrap_left .left_hi .left_con1 .con1_h5 > span {
+    opacity: 0.60;
+}
+.wrap .wrap_left .left_hi .left_con2 .con2_p {
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 15px 0;
+    padding: 0 16px;
+}
+.wrap .wrap_left .left_hi .left_con2 .left_btn .btn_btn{
+    border: 1px solid #ccc;
+    padding: 12px 24px;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 15px;
+    background: #fff;
+    color:#000;
+    margin: 15px 16px;    
+}
+.wrap .wrap_left .left_hi .left_con2 .left_btn .btn_btn:hover {
+    background: #ccc;
+}
+.wrap .wrap_left .left_hi .left_con2 .left_btn .comments {
+    position: relative;
+}
+.wrap .wrap_left .left_hi .left_con2 .left_btn .comments  .com_p .com_span {
+    position: absolute;
+    padding: 12px 24px;
+    font-size: 15px;
+    font-weight: bold;
+    bottom: 20px;
+    right: 20px;
+}
+.wrap .wrap_left .left_hi .left_con2 .left_btn .comments  .com_p .com_span .com_shape {
+    background: #000;
+    color: #fff;
+    padding: 2px 8px;
+}
+
+
+/*********** wrap left 하*************/
+
+
+.wrap .wrap_left .left_row {    
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+    color: #000;
+    background-color: #fff;
+    margin: 16px;
+    margin-top: 50px;
+}
+.wrap .wrap_left .left_row img {
+    width: 100%;
+}
+.wrap .wrap_left .left_row .left_row_con1 {
+    padding: 0 16px;
+}
+.wrap .wrap_left .left_row .left_row_con1 .con1_h3 {
+    margin: 10px 0;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.wrap .wrap_left .left_row .lleft_row_con1 .con1_h5 {
+    margin: 10px 0;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.wrap .wrap_left .left_row .left_row_con1 .con1_h5 > span {
+    opacity: 0.60;
+}
+.wrap .wrap_left .left_row .left_con2 .con2_p {
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 15px 0;
+    padding: 0 16px;
+}
+.wrap .wrap_left .left_row .left_con2 .left_btn .btn_btn{
+    border: 1px solid #ccc;
+    padding: 12px 24px;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 15px;
+    background: #fff;
+    color:#000;
+    margin: 15px 16px;    
+}
+.wrap .wrap_left .left_row .left_con2 .left_btn .btn_btn:hover {
+    background: #ccc;
+}
+.wrap .wrap_left .left_row .left_con2 .left_btn .comments {
+    position: relative;
+}
+.left_btn .comments  .com_p .com_span {
+    position: absolute;
+    padding: 12px 24px;
+    font-size: 15px;
+    font-weight: bold;
+    bottom: 20px;
+    right: 20px;
+}
+.left_btn .comments  .com_p .com_span .com_shape {
+    background: #000;
+    color: #fff;
+    padding: 2px 8px;
+}
+
+/*********** wrap right-aside1 *************/
+
+.wrap_right {    
+    width: 32%;
+    float: right;
+    margin:16px 0 16px 16px;
+}
+.wrap_right .aside1 {
+    background:#fff;
+    color:#000;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+}
+.wrap_right .aside1 img {
+    width: 100%;
+}
+.wrap_right .aside1 .myname .my_h4 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px 0 10px 15px;
+    line-height: 1.5;
+}
+.wrap_right .aside1 .myname .my_p {
+    margin: 10px 15px 15px 15px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+/*********** wrap right-aside2 *************/
+
+.wrap_right .aside2 {
+    margin-top: 42px;
+    height: 400px;    
+    background:#fff;
+    color:#000;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+}
+.posts {
+    padding: 8px 16px;
+    background:#F1f1f1;    
+}
+.posts >h4 {
+    font-weight: 400;
+    margin: 10px 0;
+    font-size: 18px;
+}
+.aside2 .list {
+    width: 100%;
+    height: 330px;    
+}
+.aside2 .list > li {
+    height: 25%;
+    padding: 15px 16px 8px 16px;
+    border-bottom: 1px solid #ddd;
+}
+.aside2 .list > li:hover {
+    background: #ccc;
+}
+.aside2 .list > li:last-child {
+    border-bottom: none;
+}
+.aside2 .list > li > div {
+    display: inline-block;
+    margin-left: 10px;
+}
+.aside2 .list > li >img{
+    width: 50px;
+    height: 50px;
+}
+.aside2 .list > li .li_span {
+    font-size: 18px;
+}
+
+/*********** wrap right-aside3 *************/
+
+.aside3 {
+    width: 100%;
+    height: 209px;
+    position: relative;
+    margin-top: 42px;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+}
+.aside3 .tags {
+    padding: 8px 16px;
+    height: 66px;
+    background:#F1f1f1; 
+}
+.aside3 .tags > h4 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+.aside3 .trasvel {
+    background: #fff;
+    height: 66.666%;
+    font-size: 14px;
+    padding: 20px;
+    bottom: 0;
+    position: absolute;
+}
+.aside3 .trasvel >p > span {
+    background: #efeded;
+    display:inline-block;
+    padding: 0 3px 4px 3px;
+    margin-bottom:20px;
+}
+.aside3 .trasvel >p > span:first-child {
+    background-color: black;
+    color:#fff;
+    padding: 2px;
+}
+
+
+/*********** footer *************/
+
+footer {
+    position: relative;
+    margin-top: 60px;
+    width: 100%;
+    height: 180px;
+    background: #616161;
+}
+footer .footer_div {
+    position: absolute;
+    top:30px;
+    padding-left:20px;
+}
+.footer_div >button {
+    padding: 12px 24px;
+    background:#000;
+    color:#fff;
+    font-size:15px;
+    margin-bottom:16px;
+}
+.footer_div .previous {
+    opacity:0.3;
+}
+.footer_div >p {
+    color:#fff;
+}
+.footer_div >p >a {
+    color:#fff;
+    text-decoration:underline;
+}
